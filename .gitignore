@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+/dist/
+**/dist/
+
+# Lambda packaging workspaces
+/lambda-package/
+/lambda-zip-check/
+
+# Deployment archives
+*.zip
+
+# Logs and local tooling output
+*.log
+npm-debug.log*
+.vite/
